@@ -57,7 +57,7 @@ If using Laravel 5.1 to 5.4, Register the ServiceProvider and (optionally) the F
 
 'providers' => [
     ...
-    Bogardo\Mailgun\MailgunServiceProvider::class
+    Bogardo\Mailgun\MailgunServiceProvider::class,
 
 ];
 
@@ -65,7 +65,7 @@ If using Laravel 5.1 to 5.4, Register the ServiceProvider and (optionally) the F
 
 'aliases' => [
 	...
-    'Mailgun' => Bogardo\Mailgun\Facades\Mailgun::class
+    'Mailgun' => Bogardo\Mailgun\Facades\Mailgun::class,
 ],
 ```
 
